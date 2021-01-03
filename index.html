@@ -1,12 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>new responsive website</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+<header>
+	<a href="#" class="logo">Food<span>.</span></a>
+	<div class="menuToggle active" onclick="togglemenu();"></div>
+	<ul class="navigation active"onclick="togglemenu();">
+		<li><a href="#banner"onclick="togglemenu();">Home</a></li>
+		<li><a href="#about"onclick="togglemenu();">About</a></li>
+		<li><a href="#menu"onclick="togglemenu();">Menu</a></li>
+		<li><a href="#expert"onclick="togglemenu();">Expert</a></li>
+		<li><a href="#testimonials"onclick="togglemenu();">Testimonials</a></li>
+		<li><a href="#contact"onclick="togglemenu();">Contact</a></li>
+	</ul>
+</header>
 <body>
-    <h1>this is my first github project</h1>
-    <h2>look i'm using github</h2>
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2>Always Choose Good </h2>
+			<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+			<a href="#" class="btn">Our Menu</a>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50">
+				<h2 class="titleText"><span>A</span>bout Us</h2>
+				<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.<br><br>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard.Lorem Ipsum has been the industry's standard.</p>
+			</div>
+			<div class="col50">
+				<div class="imgBx">
+					<img src="img/img1.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="menu" id="menu">
+		<div class="title">
+			<h2 class="titleText">Our <span>M</span>enu</h2>
+			<p>is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu1.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Salads</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu2.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Soup</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu3.jpg">
+				</div>
+				<div class="text">
+					<h3>Special pasta</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu4.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Salads</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu5.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Soup</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu6.jpg">
+				</div>
+				<div class="text">
+					<h3>Special pasta</h3>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<a href="#" class="btn">View All</a>
+		</div>
+	</section>
+	<section class="expert" id="expert">
+		<div class="title">
+			<h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+			<p>is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/expert1.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>	
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/expert2.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>	
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/expert3.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>	
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/expert4.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>	
+			</div>
+	</section>
+
+	<section class="testimonials" id="testimonials">
+		<div class="title white">
+			<h2 class="titleText">They <span>S</span>aid About Us</h2>
+			<p>is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/testi1.jpg">
+				</div>
+				<div class="text">
+					<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.is simply.</p>
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/testi2.jpg">
+				</div>
+				<div class="text">
+					<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.is simply.</p>
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/testi3.jpg">
+				</div>
+				<div class="text">
+					<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.is simply.</p>
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="testimonials">
+		<div class="title">
+			<h2 class="titleText"><span>C</span>ontact Us</h2>
+			<p>is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		<div class="contactForm">
+			<h3>Send Message</h3>
+			<div class="inputBox">
+				<input type="text" placeholder="Name">
+			</div>
+			<div class="inputBox">
+				<input type="text" placeholder="Email">
+			</div>
+			<div class="inputBox">
+				<textarea placeholder="Name"></textarea>
+			</div>
+			<div class="inputBox">
+				<input type="submit" value="send">
+			</div>
+		</div>
+	</section>
+	<div class="copyrightText">
+		<p>Copyright 2020 <a href="#"> Online Tutorials</a>.All Right Reserved</p>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll',function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky",window.scrollY > 0);
+		});
+
+		function togglemenu(){
+			const menuToggle = document.querySelector('menuToggle');
+			const navigation = document.querySelector('navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
+
 </body>
 </html>
